@@ -12,9 +12,20 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.oredict.OreDictionary;
+import com.jadedpacks.jadedbase.helpers.OreDictionaryTweaks;
+import com.jadedpacks.jadedbase.helpers.RecipeRemover;
+import com.jadedpacks.jadedbase.helpers.Parts;
+import com.jadedpacks.jadedbase.helpers.Basic;
+import com.jadedpacks.jadedbase.helpers.Wood.*;
+import com.jadedpacks.jadedbase.helpers.Wood;
+import forestry.api.arboriculture.EnumWoodType;
+import forestry.api.arboriculture.IWoodItemAccess;
+import forestry.api.arboriculture.TreeManager;
+import static forestry.api.arboriculture.EnumWoodType.*;
 
 
-public class Parts {
+public class Parts {	
+	
 
 	//logs
 
@@ -678,6 +689,8 @@ public class Parts {
 		gravel = GameRegistry.findBlock("minecraft", "gravel");
 		sand = GameRegistry.findBlock("minecraft", "sand");
 		soulsand = GameRegistry.findBlock("minecraft", "soul_sand");
+		
+		
 
 
 
