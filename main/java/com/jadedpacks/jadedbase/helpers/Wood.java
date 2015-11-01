@@ -18,6 +18,6 @@ import forestry.api.arboriculture.EnumWoodType;
 
 public class Wood {
 	
-	Item larch = TreeManager.woodItemAccess.getLog(EnumWoodType LARCH, false);
+	ItemStack larch = TreeManager.woodItemAccess.getLog(LARCH, false);
 
 }
